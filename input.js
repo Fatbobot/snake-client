@@ -23,11 +23,11 @@ const handleUserInput = (key) => {
   } else if (key === 'd') {
     connection.write("Move: right");
   }else if (key === 'u') {
-    connection.write("Nice try guy!");
+    connection.write("Say: Nice try guy!");
   }else if (key === 'i') {
-    connection.write("I am the snek!");
+    connection.write("Say: I am the snek!");
   }else if (key === 'o') {
-    connection.write("Curses!");
+    connection.write("Say: Curses!");
   }
 };
 let connection;
