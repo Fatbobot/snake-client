@@ -6,15 +6,34 @@ const connect = function () {
     host: 'localhost', // IP address here,
     port: '50541',  // PORT number here,
   });
-  conn.on("connect", (data) => {
-    console.log(`you did ${data}`)
-    // code that does something when the connection is first established
+  conn.on("connect", () => {
+    console.log("Successfully connected to game server");
+    conn.write ("Name: P-J");
   });
-  // interpret incoming data as text
   conn.setEncoding("utf8");
-
+  // interpret incoming data as text
   return conn;
 };
 
 console.log("Connecting ...");
 connect();
+
+module.exports = {
+  connect,
+};
+
+
+// setup interface to handle user input from stdin
+
+const setupInput = function () {
+  const stdin = process.stdin;
+  stdin.setRawMode(true);
+  stdin.setEncoding("utf8");
+  stdin.resume();
+  stdin.on("data", handleUserInput);
+  return stdin;
+};
+
+const handleUserInput = function () {
+  // your code here
+};
