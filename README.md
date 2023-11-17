@@ -7,6 +7,14 @@ This is simply a multiplayer take on the genre.
 Before you can run this client, you will need to be running the server side which you can download and install from here. 
 
 
+## Final Product
+
+!["Cool Snake"](![image](https://github.com/Fatbobot/snake-client/assets/73757147/2f38f973-d36a-4876-a823-5a308e0950c2)
+)
+!["P-J hungry and ready to game!"](![image](https://github.com/Fatbobot/snake-client/assets/73757147/2b377d85-7529-4d46-8b9b-7a7abb63fa5a)
+)
+
+
 ## Getting Started
 
 - Follow steps inside the snek server repo to run the server side
