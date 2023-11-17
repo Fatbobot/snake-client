@@ -9,10 +9,11 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["Cool Snake"]([image](Snake-1.png.png)
-)
-!["P-J hungry and ready to game!"]([image](Snake-2.png.jpg)
-)
+
+!["Cool Snake"](https://github.com/Fatbobot/snake-client/assets/73757147/3dddbbeb-9a93-4d86-a0ba-b2cad9367755)
+
+
+!["P-J hungry and ready to game!"](https://github.com/Fatbobot/snake-client/assets/73757147/b5c32f0d-0af0-45e6-8b90-97f5c6beb5a9)
 
 
 ## Getting Started
