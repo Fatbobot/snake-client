@@ -9,9 +9,9 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["Cool Snake"]([image](Snake-1.png)
+!["Cool Snake"]([image](Snake-1.png.png)
 )
-!["P-J hungry and ready to game!"]([image](Snake-2.png)
+!["P-J hungry and ready to game!"]([image](Snake-2.png.jpg)
 )
 
 
