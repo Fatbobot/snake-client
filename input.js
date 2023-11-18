@@ -1,4 +1,3 @@
-
 const setupInput = (conn) => {
   connection = conn;
 
@@ -10,26 +9,25 @@ const setupInput = (conn) => {
   return stdin;
 };
 
-
 const handleUserInput = (key) => {
-  if (key === '\u0003') {
+  if (key === "\u0003") {
     process.exit();
-  } else if (key === 'w') {
+  } else if (key === "w") {
     connection.write("Move: up");
-  } else if (key === 's') {
+  } else if (key === "s") {
     connection.write("Move: down");
-  } else if (key === 'a') {
+  } else if (key === "a") {
     connection.write("Move: left");
-  } else if (key === 'd') {
+  } else if (key === "d") {
     connection.write("Move: right");
-  } else if (key === 'u') {
+  } else if (key === "u") {
     connection.write("Say: Nice try guy!");
-  } else if (key === 'i') {
+  } else if (key === "i") {
     connection.write("Say: I am the snek!");
-  } else if (key === 'o') {
+  } else if (key === "o") {
     connection.write("Say: Curses!");
   }
 };
 let connection;
 
-module.exports = {setupInput};
+module.exports = { setupInput };

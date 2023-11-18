@@ -1,5 +1,5 @@
-const {connect} = require('./client');
-const {setupInput} = require('./input');
+const { connect } = require("./client");
+const { setupInput } = require("./input");
 
 const { builtinModules } = require("module");
 const net = require("net");
