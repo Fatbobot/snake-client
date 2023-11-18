@@ -3,7 +3,7 @@ const { IP, PORT } = require("./constants");
 const net = require("net");
 
 
-const connect = function () {
+const connect = function() {
   const conn = net.createConnection({
     host : IP, // IP address here,
     port : PORT,  // PORT number here,
@@ -18,6 +18,4 @@ const connect = function () {
 };
 
 
-module.exports = {
-  connect,
-};
+module.exports = {connect};

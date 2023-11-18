@@ -8,6 +8,3 @@ const conn = connect();
 console.log("Connecting ...");
 
 setupInput(conn);
-
-
-// setup interface to handle user input from stdin
